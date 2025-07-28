@@ -1,0 +1,84 @@
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:2.3" xmlns="urn:mtconnect.org:MTConnectStreams:2.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:2.3 /schemas/MTConnectStreams_2.3.xsd">
+	<Header creationTime="2025-02-24T05:13:10Z" sender="DESKTOP-OQVSL5M" instanceId="1740373971" version="2.4.0.9" deviceModelChangeTime="2025-02-24T05:12:51.148982Z" bufferSize="131072" nextSequence="141" firstSequence="1" lastSequence="140" />
+	<Streams>
+		<DeviceStream name="UR5-Adapter" uuid="UR5e">
+			<ComponentStream component="Rotary" name="j3" componentId="122121">
+				<Samples>
+					<Angle dataItemId="122121" name="j3" sequence="138" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.807335574410507</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Rotary" name="j0" componentId="122123">
+				<Samples>
+					<Angle dataItemId="122123" name="j0" sequence="135" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.016968487229581</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Rotary" name="j4" componentId="122221">
+				<Samples>
+					<Angle dataItemId="122221" name="j4" sequence="139" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.156544550481362</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Rotary" name="j1" componentId="122223">
+				<Samples>
+					<Angle dataItemId="122223" name="j1" sequence="136" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.180804382227536</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Rotary" name="j5" componentId="122321">
+				<Samples>
+					<Angle dataItemId="122321" name="j5" sequence="140" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.481599619192199</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Rotary" name="j2" componentId="122323">
+				<Samples>
+					<Angle dataItemId="122323" name="j2" sequence="137" subType="ACTUAL" timestamp="2025-02-24T14:13:08.318394Z">0.500031277615617</Angle>
+				</Samples>
+			</ComponentStream>
+			<ComponentStream component="Device" name="UR5-Adapter" componentId="UR5">
+				<Events>
+					<AssetCountDataSet count="0" dataItemId="UR5_asset_count" sequence="31" timestamp="2025-02-24T05:12:51.149837Z">UNAVAILABLE</AssetCountDataSet>
+					<AssetChanged assetType="UNAVAILABLE" dataItemId="asset_changed" name="asset_changed" sequence="22" timestamp="2025-02-24T05:12:51.149809Z">UNAVAILABLE</AssetChanged>
+					<AssetRemoved assetType="UNAVAILABLE" dataItemId="asset_removed" name="asset_removed" sequence="24" timestamp="2025-02-24T05:12:51.149817Z">UNAVAILABLE</AssetRemoved>
+					<Availability dataItemId="avail" name="avail" sequence="20" timestamp="2025-02-24T05:12:51.149803Z">UNAVAILABLE</Availability>
+					<FunctionalMode dataItemId="functional_mode" name="functional_mode" sequence="25" timestamp="2025-02-24T05:12:51.149819Z">UNAVAILABLE</FunctionalMode>
+					<CompositionState compositionId="GripperControl" dataItemId="gripperstate" name="compostionstate1" sequence="26" subType="MOTION" timestamp="2025-02-24T05:12:51.149821Z">UNAVAILABLE</CompositionState>
+				</Events>
+			</ComponentStream>
+		</DeviceStream>
+		<DeviceStream name="Agent" uuid="c1434aca-9034-5380-b758-cd5f65da1755">
+			<ComponentStream component="Adapter" name="127.0.0.1:7878" componentId="_127.0.0.1_7878">
+				<Samples>
+					<AssetUpdateRate dataItemId="_127.0.0.1_7878_asset_update_rate" sequence="12" statistic="AVERAGE" timestamp="2025-02-24T05:12:51.149784Z">UNAVAILABLE</AssetUpdateRate>
+					<ObservationUpdateRate dataItemId="_127.0.0.1_7878_observation_update_rate" duration="10" sequence="92" statistic="AVERAGE" timestamp="2025-02-24T05:13:01.162616Z">5.4</ObservationUpdateRate>
+				</Samples>
+				<Events>
+					<AdapterSoftwareVersion dataItemId="_127.0.0.1_7878_adapter_software_version" sequence="5" timestamp="2025-02-24T05:12:51.149763Z">UNAVAILABLE</AdapterSoftwareVersion>
+					<AdapterURI dataItemId="_127.0.0.1_7878_adapter_uri" sequence="10" timestamp="2025-02-24T05:12:51.149776Z">shdr://127.0.0.1:7878</AdapterURI>
+					<ConnectionStatus dataItemId="_127.0.0.1_7878_connection_status" sequence="37" timestamp="2025-02-24T05:12:51.150366Z">ESTABLISHED</ConnectionStatus>
+					<MTConnectVersion dataItemId="_127.0.0.1_7878_mtconnect_version" sequence="13" timestamp="2025-02-24T05:12:51.149786Z">UNAVAILABLE</MTConnectVersion>
+				</Events>
+			</ComponentStream>
+			<ComponentStream component="Adapter" name="127.0.0.1:8080" componentId="_127.0.0.1_8080">
+				<Samples>
+					<AssetUpdateRate dataItemId="_127.0.0.1_8080_asset_update_rate" sequence="18" statistic="AVERAGE" timestamp="2025-02-24T05:12:51.149798Z">UNAVAILABLE</AssetUpdateRate>
+					<ObservationUpdateRate dataItemId="_127.0.0.1_8080_observation_update_rate" sequence="16" statistic="AVERAGE" timestamp="2025-02-24T05:12:51.149792Z">UNAVAILABLE</ObservationUpdateRate>
+				</Samples>
+				<Events>
+					<AdapterSoftwareVersion dataItemId="_127.0.0.1_8080_adapter_software_version" sequence="17" timestamp="2025-02-24T05:12:51.149795Z">UNAVAILABLE</AdapterSoftwareVersion>
+					<AdapterURI dataItemId="_127.0.0.1_8080_adapter_uri" sequence="15" timestamp="2025-02-24T05:12:51.14979Z">shdr://127.0.0.1:8080</AdapterURI>
+					<ConnectionStatus dataItemId="_127.0.0.1_8080_connection_status" sequence="36" timestamp="2025-02-24T05:12:51.150131Z">LISTEN</ConnectionStatus>
+					<MTConnectVersion dataItemId="_127.0.0.1_8080_mtconnect_version" sequence="19" timestamp="2025-02-24T05:12:51.149801Z">UNAVAILABLE</MTConnectVersion>
+				</Events>
+			</ComponentStream>
+			<ComponentStream component="Agent" name="Agent" componentId="agent_c1434aca">
+				<Events>
+					<Availability dataItemId="agent_avail" sequence="34" timestamp="2025-02-24T05:12:51.149846Z">AVAILABLE</Availability>
+					<AssetChanged assetType="UNAVAILABLE" dataItemId="agent_c1434aca_asset_chg" sequence="6" timestamp="2025-02-24T05:12:51.149766Z">UNAVAILABLE</AssetChanged>
+					<AssetCountDataSet count="0" dataItemId="agent_c1434aca_asset_count" sequence="8" timestamp="2025-02-24T05:12:51.149771Z">UNAVAILABLE</AssetCountDataSet>
+					<AssetRemoved assetType="UNAVAILABLE" dataItemId="agent_c1434aca_asset_rem" sequence="7" timestamp="2025-02-24T05:12:51.149768Z">UNAVAILABLE</AssetRemoved>
+					<DeviceAdded dataItemId="device_added" hash="dO6KOJsrVHrcdU9niG6KCT6Rflg=" sequence="33" timestamp="2025-02-24T05:12:51.149843Z">UR5e</DeviceAdded>
+					<DeviceChanged dataItemId="device_changed" sequence="4" timestamp="2025-02-24T05:12:51.149761Z">UNAVAILABLE</DeviceChanged>
+					<DeviceRemoved dataItemId="device_removed" sequence="3" timestamp="2025-02-24T05:12:51.149759Z">UNAVAILABLE</DeviceRemoved>
+				</Events>
+			</ComponentStream>
+		</DeviceStream>
+	</Streams>
+</MTConnectStreams>
